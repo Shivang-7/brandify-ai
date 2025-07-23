@@ -2,6 +2,8 @@ import { useState } from "react";
 import Form from "./components/Form";
 import Output from "./components/Output";
 
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
 function App() {
   const [result, setResult] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -16,7 +18,7 @@ function App() {
     setResult("");
 
     try {
-      const res = await fetch("http://localhost:5000/generate", {
+      const res = await fetch(`${BACKEND_URL}/generate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
