@@ -9,10 +9,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [darkMode, setDarkMode] = useState(true);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
-
   const handleGenerate = async (formData) => {
     setIsLoading(true);
     setResult("");
