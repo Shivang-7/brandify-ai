@@ -39,7 +39,7 @@
 <br/>
 
 ## 🎥 Demo
-![Dark Mode](./demo/dark.png)
+![Home](./demo/home.png)
 ![Light Mode](./demo/light.png)
 
 <br>
