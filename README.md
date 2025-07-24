@@ -10,12 +10,12 @@
 
 ## 🚀 Features
 
-- 🔤 Input your brand/product keywords or goals
-- 🧠 Choose output format: Tweet, Instagram caption, Blog outline, etc.
-- ✨ AI-generated creative text via Gemini 1.5 Flash
-- 🎛️ Edit and copy generated results
-- 🌗 Dark mode toggle for better accessibility
-- 📤 Easily export or reuse content
+- 📝 Input product/brand details
+- 🎯 Choose content type (Tweet, Instagram caption, blog outline, etc.)
+- 🧠 Generate AI-written marketing copy using Gemini 1.5 Flash
+- 🌈 Select tone of voice (e.g., Professional, Casual, Funny, Bold) for personalized results
+- 📤 Copy or share generated content
+- 🌙 Dark mode support for modern UI
 
 <br/>
 
@@ -39,8 +39,8 @@
 <br/>
 
 ## 🎥 Demo
-
-Click the image above to watch a walkthrough of the project
+![Dark Mode](./demo/dark.png)
+![Light Mode](./demo/light.png)
 
 <br>
 
@@ -78,4 +78,4 @@ npm run dev
 
 ## 📄 License
 
-This project is licensed under the MIT License.  
+This project is licensed under the [MIT License](./LICENSE).  
